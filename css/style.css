@@ -4,7 +4,8 @@
     --color-primary:#4D41C0;
     --white:#fff;
     --text-gray: #4a4a4a;
-    --text-light-gray:#aaa
+    --text-light-gray:#aaa;
+    --star-yellow:#FFBB3A;
 }
 *{
     font-family: 'Open Sans';
@@ -68,7 +69,7 @@ nav a{
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
     
 }
 .dsmovie-card-description h3{
@@ -78,6 +79,30 @@ nav a{
     text-align: center;
 
 }
+.dsmovie-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-description-bottom img{
+    width: 22px;
+}
+.dsmovie-description-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+.dsmovie-description-bottom p{
+    color: var(--text-light-gray);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+
 .dsmovie-btn, .dsmovie-btn:hover {
     width: 180px;
     height: 40px;
